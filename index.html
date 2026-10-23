@@ -1,14 +1,15 @@
 <!--Paso 1 — Esqueleto base de index.html-->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formularios</title>
-    <link rel="stylesheet" href="CSS/formularios.css " />
-    <link rel="shortcut icon" href="logo.png/logo.jpg" />
+    <link rel="stylesheet" href="CSS/formularios.css ">
+    <link rel="shortcut icon" href="logo.png/logo.jpg">
   </head>
   <body>
+
     <header>
       <nav>
         <a href="index.html">Inicio</a>
@@ -16,42 +17,40 @@
         <a href="registro.html" target="_blank">Resgistro</a>
       </nav>
       <h1>Formularios en HTML</h1>
+      <p></p>
     </header>
 
     <main>
       <section>
-
 <!--Paso 2 — Bloque "Texto"-->
     <form action="">
       <fieldset>
         <legend>Texto</legend>
-        <p>
-          Campos de texto básicos: simple, con placeholder, obligatorio
-          (required), de solo lectura (readonly) y deshabilitado (disabled).
-        </p>
+        <p>Campos de texto básicos: simple, con placeholder, obligatorio
+          (required), de solo lectura (readonly) y deshabilitado (disabled).</p>
 
         <label for="">Input tipo texto</label>
-        <input type="text" />
-        <br />
+        <input type="text">
+        <br>
 
         <label for="">Placeholder</label>
-        <input type="text" placeholder="Esto es " />
-        <br />
+        <input type="text" placeholder="Esto es ">
+        <br>
 
         <label for="">Campo Obligatorio required</label>
-        <input type="text" placeholder="Campo Oblitorio" required />
-        <br />
+        <input type="text" placeholder="Campo Oblitorio" required>
+        <br>
 
         <label for="">Campo solo Lectura readonly</label>
-        <input type="text" readonly placeholder="Campo solo lectura" />
-        <br />
+        <input type="text" readonly placeholder="Campo solo lectura">
+        <br>
 
         <label for="">Campo deshabilitado disabled</label>
-        <input type="text" disabled placeholder="Campo deshabilitado" />
-        <br />
+        <input type="text" disabled placeholder="Campo deshabilitado">
+        <br>
 
-        <input type="submit" value="Enviar" />
-        <input type="reset" value="Restablecer" />
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Restablecer">
       </fieldset>
     </form>
 
@@ -59,30 +58,28 @@
     <form action="">
       <fieldset>
         <legend>Contacto</legend>
-        <p>
-          Campos especializados para datos de contacto: contraseña, correo
+        <p>Campos especializados para datos de contacto: contraseña, correo
           electrónico, teléfono y URL, cada uno con su propio teclado y
-          validación en el navegador.
-        </p>
+          validación en el navegador.</p>
 
         <label for="">Contraseña</label>
-        <input type="password" placeholder="**********" />
-        <br />
+        <input type="password" placeholder="**********">
+        <br>
 
         <label for="">Correo electrónico</label>
-        <input type="email" placeholder="correo@ejemplo.com" />
-        <br />
+        <input type="email" placeholder="correo@ejemplo.com">
+        <br>
 
         <label for="">Número de teléfono</label>
-        <input type="tel" placeholder="+1 234 567 8900" />
-        <br />
+        <input type="tel" placeholder="+1 234 567 8900">
+        <br>
 
         <label for="">URL</label>
-        <input type="url" placeholder="https://ejemplo.com" />
-        <br />
+        <input type="url" placeholder="https://ejemplo.com">
+        <br>
 
-        <input type="submit" value="Enviar" />
-        <input type="reset" value="Restablecer" />
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Restablecer">
       </fieldset>
     </form>
   
@@ -90,20 +87,19 @@
 <form action="">
   <fieldset>
     <legend>Numéricos</legend>
-    <p>
-      Campos para valores numéricos: un número con límites (min/max) y un
-      deslizador (range) para elegir un valor dentro de un rango.
-    </p>
+    <p>Campos para valores numéricos: un número con límites (min/max) y un
+      deslizador (range) para elegir un valor dentro de un rango.</p>
+    
     <label for="">Número</label>
-    <input type="number" min="0" max="100" step="1" />
-    <br />
+    <input type="number" min="0" max="100" step="1">
+    <br>
 
     <label for="">Rango</label>
-    <input type="range" min="0" max="100" step="1" />
-    <br />
+    <input type="range" min="0" max="100" step="1">
+    <br>
 
-    <input type="submit" value="Enviar" />
-    <input type="reset" value="Restablecer" />
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Restablecer">
   </fieldset>
 </form>
 
@@ -214,14 +210,14 @@
         <select name="" disabled>
             <option value="opcion1">Opción 1</option>
         </select>
-    </fieldset>
-</form>
-        </select>
         <br>
 
         <input type="submit" value="Enviar">
         <input type="reset" value="Restablecer">
     </fieldset>
+  </form>
+
+
     </section>
   </main>
 </body>
